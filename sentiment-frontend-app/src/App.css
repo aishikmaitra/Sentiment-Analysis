@@ -1,0 +1,78 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  font-size: larger;
+  background-color: black;
+  background-image: url('./assets/bgImg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  /* text-align: center; */
+  color: azure;
+  width: full;
+  padding: 3vh;
+  padding-top: 0;
+  /* background-color: #fff; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  /* background-color: black; */
+}
+
+.title {
+  align-self: start;
+  color: aqua;
+}
+
+.symbol {
+  width: 83.333vh;
+  height: 50vh;
+  border-radius: 5%;
+}
+
+.result {
+  margin-top: 0.5vh;
+  padding-left: 8vh;
+}
+
+.error {
+  color: red;
+}
+
+textarea {
+  width: 100%;
+  height: 16.667vh;
+  margin-bottom: 1.667vh;
+  padding: 1.333vh;
+  font-size: 2.667vh;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 1.667vh 3.33vh;
+  font-size: 2.667vh;
+  cursor: pointer;
+  border-radius: 0.667vh;
+  transition: background-color 0.3s;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 3.33vh;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 1.667vh;
+}
