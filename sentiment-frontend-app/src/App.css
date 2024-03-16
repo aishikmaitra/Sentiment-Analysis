@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  /* height: 110vh; */
+  /* width: 200vh; */
   font-size: larger;
   background-color: black;
   background-image: url('./assets/bgImg1.jpg');
