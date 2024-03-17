@@ -30,9 +30,9 @@ def preprocess_text(text):
 # Function to get emotion label
 def get_emotion(prediction):
     if prediction > 0.5:
-        return np.random.choice(["Happy","Merry","Good"])
+        return np.random.choice(["Happy","Delighted","Merry"])
     else:
-        return "Sad"
+        return np.random.choice(["Sad","Disappointed","Unhappy"])
 
 # Route for predicting sentiment
 @app.route('/predict_sentiment', methods=['POST'])
