@@ -15,6 +15,7 @@ Steps to start the backend:
 Now go to backend Flask folder
 Open terminal and create a virtual environment by:
 ### python -m venv <preferred_name>
+### .\<preferred_name>\Scripts\activate
 Activate the virtual environment. (Activation command might differ based on your operating system)
 Install dependencies:
 ### pip install tensorflow
